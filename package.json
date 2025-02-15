@@ -1,0 +1,54 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "Test project for Express, MySQL, Mysql2, Joi, Webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/app.ts",
+    "start": "node dist/prod/server.js",
+    "build": "webpack",
+    "migrate": "ts-node src/database/migrator.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "typescript",
+    "mySql",
+    "file-CRUD"
+  ],
+  "author": "Dmitry Sotnikov",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status": "^1.5.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.2",
+    "@types/multer": "^1.4.12",
+    "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.9",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
