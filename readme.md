@@ -10,7 +10,7 @@ A Node.js project built with Express, MySQL, and TypeScript. The project include
 - **File Management**:
   - Full CRUD functionality for file operations.
   - File upload support using `form-data`.
-- Built with **Node.js**, **Express**, **MySQL**, **Mysql2**, **Joi**, **Webpack**, **Bcrypt**, and **TypeScript**.
+- Built with **Node.js**, **Express**, **MySQL**, **Mysql2**, **Joi**, **Webpack**, **Bcrypt** and **TypeScript**.
 
 ## Prerequisites
 
@@ -24,8 +24,7 @@ To run this project, you need:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/DmitriySotnikov/Express-project.git
 
    ```
 
