@@ -56,12 +56,11 @@ CREATE DATABASE node_mysql_api;
 
 - **Development Mode**
 
-To run the project in development mode:
+   ```bash 
+   npm run dev 
 
-    ```bash
-    npm run dev
-
-    ```
+   ```
+    
 
 - **Production Mode**
 
